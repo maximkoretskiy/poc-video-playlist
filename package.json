@@ -1,0 +1,12 @@
+{
+  "name": "projects",
+  "private": "true",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "snp-gulp-tasks": "~0.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
