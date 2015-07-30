@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"></head><title>fail</title><meta name="description" content=""><body><script type="text/javascript" charset="utf-8">(function() {
+  var ref;
+
+  if ((ref = window.opener) != null) {
+    if (typeof ref.callAuthFail === "function") {
+      ref.callAuthFail();
+    }
+  }
+
+  window.close();
+
+  window.location.replace("/");
+
+}).call(this);
+</script></body></html>
