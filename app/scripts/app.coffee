@@ -57,7 +57,7 @@ define (require, exports, module)->
         item.showCurrent()
         this[key] = item
       Backbone.history.start {
-       pushState: Modernizr.history
+        # pushState: Modernizr.history
       }
 
     initPushstateLinks: ->

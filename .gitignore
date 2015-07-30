@@ -15,3 +15,4 @@ app/bower_components
 /app/styles/_sprites.scss
 app/scripts/view/**/*.css
 app/scripts/view/**/*.css.map
+.publish/
